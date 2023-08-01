@@ -8,7 +8,7 @@ int main()
 
     int num, guess, tries = 0;
 
-    srand(time(0));         // seed random number generate
+    srand(time(0));         // random number generate
     num = rand() % 100 + 1; // random number between 1 to 100
 
     cout << "Guess Number Game :)" << endl;
